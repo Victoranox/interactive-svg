@@ -2,12 +2,12 @@
   transition: all .5s linear;
 }
 
-#face:hover #left-ear {
-  transform: translate(0, -10px)
+#bear:hover #left-ear {
+  transform: translate(0, -10px);
 }
 
-#face:hover #right-ear {
-  transform: translate(0, -10px)
+#bear:hover #right-ear {
+  transform: translate(0, -10px);
 }
 
 #right-eye {
