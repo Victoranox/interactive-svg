@@ -1,0 +1,35 @@
+#left-ear, #right-ear {
+  transition: all .5s linear;
+}
+
+#face:hover #left-ear {
+  transform: translate(0, -10px)
+}
+
+#face:hover #right-ear {
+  transform: translate(0, -10px)
+}
+
+#right-eye {
+  animation: translate 3s alternate infinite;
+}
+
+#left-eye {
+  animation: translate 3s alternate infinite;
+}
+
+@keyframes translate {
+
+  0% {
+    transform: translate(-10px, 0);
+  }
+
+  50% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(10px, 0);
+  }
+
+}
